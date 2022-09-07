@@ -1,0 +1,29 @@
+body {
+    background-color: aqua;
+}
+.card{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: pink;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+   
+}
+
+.library-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+}
+
+.add {
+   
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
